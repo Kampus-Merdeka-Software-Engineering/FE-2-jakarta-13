@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/book-page.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Estimated Book</title>
+  </head>
+  <body>
+    <!-- Memulai Navigation Bar -->
+
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="images/Logo.png" alt="Logo" />
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="main-page.html">Home</a></li>
+        <li><a href="#" id="tombol-about-us">About</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="detail-room.html">Room</a></li>
+      </ul>
+      <div class="navbar-book">
+        <a href="book-page.html" class="book-button">Estimated Book</a>
+      </div>
+    </nav>
+    <div class="container">
+        <h1>Estimated Hotel Booking</h1>
+
+        <form id="bookingForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="roomType">Select Room:</label>
+            <select id="roomType" name="roomType" required>
+                <option value="junior">Junior Suite</option>
+                <option value="executive">Executive Suite</option>
+                <option value="super">Super Deluxe</option>
+            </select>
+
+            <label for="quantity">Jumlah Room:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="button" onclick="calculateTotal()">Calculate</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+
+
+<!-- Memulai Footer -->
+
+<footer class="footer">
+    <p class="company-footer">SERENThirteen</p>
+    <p class="by-footer">&copy; by Group 13 - Jakarta</p>
+  </footer>
+<script src="js/book.js"></script>
+</body>
+</html>

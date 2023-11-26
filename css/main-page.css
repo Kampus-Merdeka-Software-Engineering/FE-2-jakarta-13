@@ -1,0 +1,251 @@
+body {
+    background-image: url("../images/background-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Memulai Isi */
+  
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  
+  .container .kiri {
+    width: 500px;
+    margin-top: 13rem;
+    margin-left: 25rem;
+  }
+  
+  .container .kiri h1 {
+    font-weight: 800;
+    font-size: 50px;
+    font-family: "League Spartan", sans-serif;
+    color: #fdf7e5;
+    margin: 13px;
+    text-align: center;
+    text-shadow: -2px 2px 4px rgba(37, 40, 29, 0.7);
+  }
+  
+  .container .kiri h3 {
+    font-weight: 800;
+    font-size: 35px;
+    font-family: "League Spartan", sans-serif;
+    color: #fdf7e5;
+    margin: 13px;
+    text-align: center;
+    text-shadow: -2px 2px 4px rgba(37, 40, 29, 0.7);
+  }
+  
+  .container .kiri a {
+    text-decoration: none;
+    background-color: rgba(253, 247, 229, 0.6);
+    color: #626953;
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 0px 2px 2px rgba(37, 40, 29, 0.7);
+    margin-left: 17px;
+  }
+  
+  .container .kiri a:hover {
+    background-color: rgba(158, 167, 136, 0.6);
+    color: #fdf7e5;
+  }
+  
+  .container .kanan {
+    width: 600px;
+    margin-top: 12rem;
+    font-family: "League Spartan", sans-serif;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    margin-right: -30px;
+  }
+  
+  .container .kanan h2 {
+    color: #fdf7e5;
+    text-shadow: 2px 2px 4px rgba(37, 40, 29, 0.7);
+    font-size: 30px;
+  }
+  
+  .container .kanan p {
+    font-family: "Poppins", sans-serif;
+    color: #fdf7e5;
+    background-color: rgba(98, 105, 83, 0.5);
+    padding: 15px 30px;
+    border-radius: 30px;
+    padding-left: 17px;
+    padding-right: 20px;
+    margin-top: -10px;
+  }
+  
+  .container .kanan img {
+    width: 300px;
+    padding-right: 40px;
+    margin-left: -40px;
+  }
+  
+  /* Memulai About Us */
+  
+  .container2 {
+    width: 100%;
+    margin-right: auto;
+    overflow: hidden;
+    padding-top: 100px;
+  }
+  
+  .container2 .about-us {
+    display: flex;
+    padding-top: 120px;
+  }
+  
+  .container2 .about-us img {
+    width: 500px;
+    padding-left: 20px;
+  }
+  
+  .container2 .about-us .tulisan-about-us {
+    padding-top: 28px;
+    margin-left: -5px;
+  }
+  
+  .container2 .about-us h2 {
+    color: #fdf7e5;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    text-shadow: -1px 2px 4px rgba(37, 40, 29, 0.7);
+    font-size: 50px;
+    margin-bottom: 29px;
+    margin-top: 9px;
+  }
+
+  .container2 .about-us h3 {
+    color: #DFA878;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    text-shadow: -1px 2px 4px rgba(37, 40, 29, 0.7);
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .container2 .about-us p {
+    color: #000000;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 600px;
+    font-size: 19px;
+    margin-top: -20px;
+  }
+  
+  .container2 .about-us a {
+    text-decoration: none;
+    background-color: rgba(170, 86, 86, 1);
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 0px 2px 2px rgba(37, 40, 29, 0.7);
+    margin-left: 275px;
+  }
+  
+  .container2 .about-us a:hover {
+    background-color: rgba(158, 167, 136, 0.6);
+    color: #fdf7e5;
+  }
+  
+  /* Memulai room */
+  
+  .room {
+    padding-top: 200px;
+  }
+  
+  .header-room {
+    display: flex;
+    justify-content: center;
+    color: #DFA878;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 700;
+    text-shadow: -1px 2px 4px rgba(37, 40, 29, 0.7);
+    font-size: 40px;
+    margin-bottom: -30px;
+    padding-top: 100px;
+  }
+  
+  .container3 {
+    width: auto;
+    display: flex;
+  }
+  
+  .container3 .card {
+    width: 290px;
+    margin: 70px;
+    margin-top : 0px;
+    justify-content: center;
+  }
+  
+  .container3 .card .foto {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container3 .card img {
+    width: 250px;
+    padding-left: 13px;
+  }
+  
+  .container3 .card h3 {
+    font-family: "League Spartan", sans-serif;
+    color: #fdf7e5;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(98, 105, 83, 0.5);
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: fit-content;
+    border-radius: 20px;
+  }
+
+
+ 
+
+  .container4 .button a {
+    text-decoration: none;
+    background-color: rgba(170, 86, 86, 1);
+    color: #ffffff;
+    border-radius: 40px;
+    padding: 5px 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 0px 2px 2px rgba(37, 40, 29, 0.7);
+    margin-left: 550px;
+    text-align: center;
+  }
+  
+  .container4 .button a:hover {
+    background-color: rgba(158, 167, 136, 0.6);
+    color: #fdf7e5;
+  }
+  

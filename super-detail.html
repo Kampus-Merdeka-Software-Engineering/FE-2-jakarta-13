@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/menu-detail.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Menu Page</title>
+  </head>
+  <body>
+    <!-- Memulai Navigation Bar -->
+
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="images/Logo.png" alt="Logo" />
+      </div>
+      <ul class="navbar-menu">
+        <li><a href="main-page.html">Home</a></li>
+        <li><a href="#" id="tombol-about-us">About</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="detail-room.html">Room</a></li>
+      </ul>
+      <div class="navbar-book">
+        <a href="book-page.html" class="book-button">Estimated Book</a>
+      </div>
+    </nav>
+
+    <!-- Memulai Isi -->
+ 
+
+    <div class="container">
+        <div class="room-details">
+            <h2>Super Deluxe </h2>
+            <img src="images/super.jpg" alt="Deluxe Room">
+            <p>
+                We offer elegant accommodations and exclusive benefits including continental breakfast, daily refreshments, VIP express check-in at executive lounge.    
+            </p>
+            <p>
+                Features:
+                <ul>
+                    <li><i class="fas fa-bed"></i> King-sized bed</li>
+                    <li><i class="fas fa-wifi"></i> Free Wi-Fi</li>
+                    <li><i class="fas fa-tv"></i> Flat-screen TV</li>
+                    <li><i class="fas fa-coffee"></i> Coffee maker</li>
+                </ul>
+            </p>
+            <p>
+                The other benefit of this room : 
+                <ul>
+                    <li> - Executive Lounge Access</li>
+                    <li> - Free Minibar</li>
+                </ul>   
+                 
+            </p>
+            <p>
+                Breakfast policy : Full charge at IDR 220.000 nett apply for additional breakfast for children aged 13 years old & above, and for children aged 6-12 years old, it is chargeable at IDR 130.000 nett. 
+            </p>
+        </div>
+    </div>
+
+    <!-- Memulai review -->
+
+    <div class="review">
+      <div class="review-form">
+        <h2>Leave your review here:</h2>
+        <div class="forms">
+          <form id="review-form"
+          name="review-executive" action="/submit" method="post">
+          <input id="bab" name="bab" value="review-executive" hidden/>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <br />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+            <br />
+            <label for="rating">Rating:</label>
+            <div class="star-rating">
+              <input type="radio" id="star5" name="rating" value="5" required />
+              <label for="star5" title="5 stars">&#9733;</label>
+              <input type="radio" id="star4" name="rating" value="4" />
+              <label for="star4" title="4 stars">&#9733;</label>
+              <input type="radio" id="star3" name="rating" value="3" />
+              <label for="star3" title="3 stars">&#9733;</label>
+              <input type="radio" id="star2" name="rating" value="2" />
+              <label for="star2" title="2 stars">&#9733;</label>
+              <input type="radio" id="star1" name="rating" value="1" />
+              <label for="star1" title="1 star">&#9733;</label>
+            </div>
+            <br />
+            <label for="comment">Review:</label>
+            <textarea id="comment" name="comment" required></textarea>
+            <br />
+            <button type="submit">Submit Review</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    <div class="review-list" name="reviewsSection">
+      <h2>Hotel Reviews:</h2>
+      <div class="list">
+        <ul id="review-list"></ul>
+      </div>
+    </div>
+
+   
+
+   
+
+     <!-- Memulai Footer -->
+
+     <footer class="footer">
+        <p class="company-footer">SERENThirteen</p>
+        <p class="by-footer">&copy; by Group 13 - Jakarta</p>
+      </footer>
+
+    <script src="js/detail-menu.js"></script>
+  </body>
+</html>

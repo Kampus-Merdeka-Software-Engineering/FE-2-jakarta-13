@@ -1,0 +1,84 @@
+body {
+
+    background-image: url("../images/background-main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.checkin-section {
+    margin-top: 150px; /* Sesuaikan nilai ini sesuai kebutuhan Anda */
+}
+
+.checkin-section, .service-section {
+
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.checkin-section form {
+    display: flex;
+    gap: 10px;
+    
+}
+
+.checkin-section label, .service-item h3 {
+    margin-top: 10px;
+}
+
+.checkin-section input, .checkin-section select, .checkin-section input[type="submit"] {
+    flex: 1;
+    padding: 8px;
+}
+
+.service-section h2 {
+    color: #333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.service-item {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.service-item h3 {
+    color: #333;
+}
+
+.service-item p {
+    color: #666;
+}
+
+.footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}

@@ -1,0 +1,179 @@
+body {
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.room-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.room-details h2 {
+    color: #333;
+}
+
+.room-details p {
+    color: #666;
+}
+
+.room-details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.room-details li {
+    margin-bottom: 10px;
+}
+
+.room-details i {
+    margin-right: 5px;
+    color: #333;
+}
+
+.room-details img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+
+  
+.review {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.review h2 {
+    color: #333;
+  }
+  
+.review-form {
+    margin-bottom: 20px;
+  }
+  
+.forms {
+    margin-top: 10px;
+  }
+  
+form {
+    display: grid;
+    gap: 10px;
+  }
+  
+label {
+    font-weight: bold;
+  }
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: #45a049;
+  }
+  
+.review-list {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.review-list h2 {
+    color: #333;
+  }
+  
+.list {
+    margin-top: 10px;
+  }
+  
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+li:last-child {
+    border-bottom: none;
+  }
+
+  /* Existing CSS... */
+
+.star-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.star-rating input {
+    display: none;
+  }
+  
+.star-rating label {
+    font-size: 25px;
+    color: #ebe9e6; /* Yellow color for stars */
+    cursor: pointer;
+  }
+  
+  /* Style for selected stars */
+.star-rating input:checked ~ label {
+    color: #ff8c00; /* Orange color for selected stars */
+  }
+  
+  /* Rest of the existing CSS... */
+  
+
+  
+ 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/service.css">
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Hotel Services</title>
+</head>
+<body>
+
+     <!-- Memulai Navigation Bar -->
+
+     <nav class="navbar">
+        <div class="navbar-logo">
+          <img src="images/Logo.png" alt="Logo" />
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="main-page.html">Home</a></li>
+          <li><a href="#" id="tombol-about-us">About</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="detail-room.html">Room</a></li>
+        </ul>
+        <div class="navbar-book">
+          <a href="book-page.html" class="book-button">Estimated Book</a>
+        </div>
+      </nav>
+
+    <!-- Check-in Section -->
+    <section class="checkin-section" id="checkin-section">
+        <form action="#" method="POST">
+            <label for="checkin">Check-in:</label>
+            <input type="date" id="checkin" name="checkin" required>
+
+            <label for="checkout">Check-out:</label>
+            <input type="date" id="checkout" name="checkout" required>
+
+            <label for="selectRoom">Select Room:</label>
+            <select id="selectRoom" name="selectRoom" required>
+                <option value="junior">Junior Suite</option>
+                <option value="executive">Executive Suite</option>
+                <option value="super">Super Deluxe</option>
+                <!-- Add more room options as needed -->
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Service Section -->
+    <section class="service-section">
+        <h2>Explore Our Services</h2>
+        <div class="service-box">
+            <div class="service-item">
+                <i class="fas fa-tint" style="color: #aa5656;"></i></i>
+                <h3>Water Adventure</h3>
+                <p>13HOTEL's Water Adventures offer guests a collection of fun and amazing entertainment. Explore the water world through snorkeling, diving or sailing activities and exciting parachute flights.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-utensils" style="color: #aa5656;"></i>
+                <h3>Food & Resto</h3>
+                <p>Experience the culinary delights at 13Hotel that mesmerize your taste buds. With a diverse menu from local to international cuisine. Prepared by skilled chefs, our dishes create a harmony of flavors that tantalize the taste buds. Enjoy!</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-dumbbell" style="color: #aa5656;"></i>
+                <h3>Gym & Yoga</h3>
+                <p>Your health is our priority. Enjoy our modern gym facilities equipped with the latest equipment, as well as relaxing yoga classes. Take care of your body and soul at our well-equipped fitness center, where self-improvement begins.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-person-swimming" style="color: #aa5656;"></i>
+                <h3>Swimming Pool</h3>
+                <p>Enjoy refreshment and relaxation at our stunning swimming pool. With stunning views, crystal clear water and friendly service, our pool is the ideal place to relax and enjoy your vacation.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-glass-cheers" style="color: #aa5656;"></i>
+                <h3>Event & Party</h3>
+                <p>Plan your event or party at 13Hotel and make unforgettable memories with us. With elegant spaces, professional service, and an alluring ambience, we provide the perfect venue for any kind of event, from weddings to business meetings.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-shield-alt" style="color: #aa5656;"></i>
+                <h3>24 - Hour Securitiy & Service</h3>
+                <p>We provide 24-hour security and tireless service. With a team that is always ready to help, you can feel safe and assured of your comfort anytime, anywhere.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Memulai Footer -->
+
+    <footer class="footer">
+        <p class="company-footer">SERENThirteen</p>
+        <p class="by-footer">&copy; by Group 13 - Jakarta</p>
+      </footer>
+  
+      <script src="js/service.js"></script>
+    </body>
+  </html>
