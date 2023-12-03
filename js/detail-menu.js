@@ -5,7 +5,6 @@ async function submitReview(){
   const rating = document.querySelector('input[name="rating"]:checked').value;
   const review = document.getElementById('comment').value;
 
-  console.log(name, email, rating, review);
   sendReviewToServer(name,email,rating,review);
 };
 
