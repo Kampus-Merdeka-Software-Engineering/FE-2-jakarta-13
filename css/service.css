@@ -13,10 +13,16 @@ body {
 }
 
 .checkin-section {
-    margin-top: 150px; /* Sesuaikan nilai ini sesuai kebutuhan Anda */
+    /* margin-top: 150px; Sesuaikan nilai ini sesuai kebutuhan Anda */
+    width: 80%;
+    margin: 150px auto auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.checkin-section, .service-section {
+.service-section {
 
     width: 80%;
     margin: auto;
