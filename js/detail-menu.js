@@ -10,7 +10,7 @@ async function submitReview(){
 
 // membuat fungsi mengirim hasil review ke server
 async function sendReviewToServer(name,email,rating,review){
-  const response = await fetch('http://localhost:3300/sendReview', {
+  const response = await fetch('https://be-2-jakarta-13-production.up.railway.app/sendReview', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -41,7 +41,7 @@ reviewForm.addEventListener('submit', (event) => {
 
 // membuat event ketika halaman di load untuk menampilkan data review dari database
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('http://localhost:3300/getReview')
+  fetch('https://be-2-jakarta-13-production.up.railway.app/getReview')
   .then(response => response.json())
   .then(data => {
     if (data) {
