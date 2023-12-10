@@ -73,13 +73,13 @@
         <h2>Leave your review here:</h2>
         <div class="forms">
           <form id="review-form"
-          name="review-junior" method="post">
-          <input id="bab" name="bab" value="review-junior" hidden/>
+          name="review-executive" action="/submit" method="post">
+          <input id="bab" name="bab" value="review-executive" hidden/>
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <input type="text" id="name" name="name"  autocomplete="name" required />
             <br />
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input type="email" id="email" name="email"  autocomplete="email" required />
             <br />
             <label for="rating">Rating:</label>
             <div class="star-rating">
@@ -96,7 +96,7 @@
             </div>
             <br />
             <label for="comment">Review:</label>
-            <textarea id="comment" name="comment" required></textarea>
+            <textarea id="comment" name="comment"  autocomplete="comment" required></textarea>
             <br />
             <button type="submit">Submit Review</button>
           </form>
